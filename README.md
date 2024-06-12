@@ -15,8 +15,8 @@ A React component that allows users to select an icon from a picker. The picker 
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd react-icon-picker
+    git clone https://github.com/vikashsprem/Icon-picker.git
+    cd Icon-picker
     ```
 
 2. Install dependencies:
