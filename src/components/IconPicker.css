@@ -1,0 +1,51 @@
+.icon-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.icon-picker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon-picker-body {
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+  background-color: #e4dfdf;
+}
+
+.icon-picker-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: rgb(50, 174, 223);
+}
+
+.icon-picker-item:hover {
+  border: 1px solid #ddd;
+}
+
+.icon-picker-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
